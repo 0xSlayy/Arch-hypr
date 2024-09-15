@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0xslayy's Cyberpunk Tech Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">0xslayy's Cyberpunk Tech Hub</h1>
+            <div id="clock" class="clock"></div>
+        </header>
+
+        <div class="widgets">
+            <!-- GitHub Section -->
+            <div class="widget github-stats">
+                <h2>GitHub Top Languages</h2>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xslayy&layout=compact&theme=synthwave" alt="Top Languages" />
+            </div>
+
+            <div class="widget github-stats">
+                <h2>GitHub Contributions</h2>
+                <img src="https://github-readme-stats.vercel.app/api?username=0xslayy&show_icons=true&theme=synthwave" alt="GitHub Stats" />
+            </div>
+
+            <!-- TryHackMe Badge -->
+            <div class="widget tryhackme">
+                <h2>TryHackMe Badge</h2>
+                <div id="tryhackme-badge">
+                    <!-- TryHackMe Badge script goes here -->
+                    <script src="https://tryhackme.com/badge/1703891"></script>
+                </div>
+            </div>
+
+            <!-- Terminal-like Hacking Commands -->
+            <div class="widget terminal">
+                <h2>Recent Hacking Commands</h2>
+                <div id="terminal-output">
+                    <p>$ sudo nmap -sV -A 192.168.1.1</p>
+                    <p>$ gdb -q ./vulnerable_binary</p>
+                    <p>$ exploitdb search buffer overflow</p>
+                </div>
+            </div>
+
+            <!-- Code Snippets -->
+            <div class="widget snippets">
+                <h2>Code Snippets</h2>
+                <div id="snippets"></div>
+            </div>
+
+            <!-- System Monitor -->
+            <div class="widget system-monitor">
+                <h2>System Monitor</h2>
+                <p>CPU Usage: <span id="cpu-usage">Loading...</span></p>
+                <p>Memory Usage: <span id="memory-usage">Loading...</span></p>
+                <p>Active Processes: <span id="active-processes">Loading...</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
