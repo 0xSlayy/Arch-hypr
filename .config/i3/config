@@ -201,3 +201,16 @@ bar {
         urgent_workspace   #ff1a75 #ff1a75 #0f0f0f
     }
 }
+
+
+# Focused window - neon cyan with neon pink indicator
+client.focused          #00ffff #1e1e2e #ff00ff #ff00ff
+
+# Unfocused windows - dark purple with faint neon blue borders
+client.unfocused        #1a0033 #121212 #444444 #0088ff
+
+# Urgent windows - bright neon red with contrasting neon orange
+client.urgent           #ff0033 #121212 #ff6600 #ff3300
+
+# Focused inactive windows - dimmed neon pink with a subtle neon blue touch
+client.focused_inactive #550077 #1e1e2e #8888ff #0088ff
